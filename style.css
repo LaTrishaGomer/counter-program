@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background: radial-gradient(
+        ellipse at top right,
+        #107667ed 0%,
+        #151419 47%,
+        #151419 100%
+      );
+}
+
+.h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Nunito Sans", serif;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Nunito Sans", serif;
+    color: #fff;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 15px;
+    background: #222127;
+    color: #fff;
+    border-radius: 2em;
+    padding: 0.625rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: #01c3a8;
+}
